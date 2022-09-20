@@ -1,0 +1,7 @@
+# Don't include any generated files
+*.pb.go
+dist/**
+# Exceptions
+!dist/README.md
+!dist/go.mod
+
