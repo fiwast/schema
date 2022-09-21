@@ -4,4 +4,3 @@ dist/**
 # Exceptions
 !dist/README.md
 !dist/go.mod
-

@@ -1,8 +1,10 @@
 syntax = "proto3";
 
-option go_package = "github.com/fiwast/api.hello";
+// option go_package = "github.com/fiwast/api.hello";
+option go_package = "github.com/fiwast/schema/api/api.hello";
 
-package api.hello;
+
+package api_hello;
 
 // The greeting service definition.
 service Greeter {
