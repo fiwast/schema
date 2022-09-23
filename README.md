@@ -1,4 +1,4 @@
-# Internal API schemas between microservices
+# Public API schemas
 
 Root directory = subdomain (ex. api.fiwast.com)
 
@@ -8,12 +8,3 @@ Fetch packages to your service with `protog`. Ex to get the api/hello protobuf d
 ```
 protog api.hello
 ```
-
-If banks need to integrate with the public API, they would need access to the proto files. Should these be put in a separate public repository?
-
-schema-internal/1
-
-schema-api/
-
-The plan (ci/cd):
-Use dist/ folder
