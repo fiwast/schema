@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "github.com/fiwast/schema/api/api.hello";
+
+package api.hello;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayBye (ByeRequest) returns (ByeReply) {}
+}
+
+// The request message containing the user's name.
+message ByeRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message ByeReply {
+  string message = 1;
+}
